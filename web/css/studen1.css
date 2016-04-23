@@ -1,0 +1,248 @@
+.body{
+    background-color:#ffffff;
+}
+.biaoti{
+    margin-left: 72px;
+    margin-top: 63px;
+    font-size: 34px;
+    color: #6c6c6c;
+}
+.sekuai{
+    width: 52px;
+    height:8px;
+    background-color: #b9a080;
+    margin-left: 72px;
+    margin-top: 32px;
+}
+.xueqizongping{
+    margin-left: 72px;
+    margin-top: 73px;
+}
+.biaoti1{
+    background-color:#b9a080;
+}
+.sekuai1{
+    background-color: #efefef;
+    height:38px;
+}
+.span1{
+    font-size: 27px;
+    color:#f2eee9;
+    margin-left:25%;
+}
+.sekuai2{
+    background-color: #b9a080;
+    height: 2px;
+    margin-left: 72px;
+}
+.mark{
+    background-color: #a7f5e9;  
+    height:450px;
+    position: relative;
+}   
+.zongti{
+    margin-top:69px;
+}
+.jj1{
+    position:relative;
+    margin-top: 68px;
+}
+.jj2{
+    margin-top: 36px;
+}
+.jj3{
+     margin-left: 72px;
+    margin-top: 4%;
+}
+.jj4{
+    margin-left: 72px;
+    margin-top: 10px;
+}
+.jj5{
+   margin-left: 72px;
+    margin-top: 4%;  
+}
+.jj6{
+    margin-top: 38px;
+}
+.jj7{
+    margin-top: 74px;
+}
+.jj8{
+    margin-top: 30px;
+}
+.kcpj{
+     margin-left: 72px;
+}
+.bcpj{
+    margin-left: 72px;
+    margin-top:7%;
+}
+.zongti .mark_do{
+    margin-left: 140px;
+ 
+}
+
+.miaoshuwenzi{
+    position: relative;
+    top:10px;
+    font-size: 10px;
+    color:#808080;
+}
+    .mark_tab{
+        position:absolute;
+        right:50px;
+        top:30px;
+    }
+    .mark_tab td {
+       padding: 20px;
+    }
+    .mark_tab tr{
+        height: 100px;
+    }
+    .mark_w{
+        font-family: SimHei;
+        font-size:22px;
+    }
+    .mark_w1{
+        font-size:23px; 
+    }
+    .mark_box{
+       position: relative;
+       top:40px;
+       left:40px;
+        width: 370px;
+        height: 40px;
+        margin:0 auto;
+    }
+    /* 星星点灯照亮我的家门 */
+    .star_bg {
+        width: 120px; height: 20px;
+        background: url(../image/star.png) repeat-x  ;
+        position: relative;
+        overflow: hidden;
+        display:inline-block;
+    }
+    .star {
+        height: 100%; width: 24px;
+        line-height: 6em;
+        position: absolute;
+        z-index: 3;
+    }
+    .star:hover {    
+        background: url(../image/star.png) repeat-x 0 -20px !important;
+        left: 0; z-index: 2;
+    }
+    .star_1 { left: 0; }
+    .star_2 { left: 24px; }
+    .star_3 { left: 48px; }
+    .star_4 { left: 72px; }
+    .star_5 { left: 96px; }
+    .star_1:hover { width: 24px; }
+    .star_2:hover { width: 48px; }
+    .star_3:hover { width: 72px; }
+    .star_4:hover { width: 96px; }
+    .star_5:hover { width: 120px; }
+
+    labe { 
+        display: block; _display:inline;
+        height: 100%; width: 100%;
+        cursor: pointer;
+    }
+    /* 幕后的英雄，单选按钮 */
+    .score { position: absolute; clip: rect(0 0 0 0); }
+    .score:checked + .star {    
+        background: url(../image/star.png) repeat-x 0 -20px ;
+        left: 0;
+        z-index: 1;
+    }
+    .score_1:checked ~ .star_1 { width: 24px; }
+    .score_2:checked ~ .star_2 { width: 48px; }
+    .score_3:checked ~ .star_3 { width: 72px; }
+    .score_4:checked ~ .star_4 { width: 96px; }
+    .score_5:checked ~ .star_5 { width: 120px; }
+    .star_bg:hover .star {  background-image: none; }
+
+    /* for IE6-IE8 JS 交互 */
+    .star_checked {    
+        background: url(../image/star.png) repeat-x 0 -20px;
+        left: 0; z-index: 1;
+    }
+.message{
+    position:relative;
+    height:300px;
+   background-color: #7eee83;
+}
+.boxt{
+    margin-top: 3%;
+    height: 205px;
+    margin-left:25%;
+    display: none;
+}
+.pjk1{
+    background-color: #ccccff;
+}
+.jsxx{
+    display:block;
+    background-color: #f5f5f5;
+    height: 341px;
+    text-decoration: none;width: 110%;
+}
+.jsxx a:hover {
+    width: 110%;
+    height: 110%;
+}
+imga:hover {
+    -webkit-transform: scale(1.06);
+	-zos-transform: scale(1.06);
+	-o-transform: scale(1.06);
+	transform: scale(1.06);
+}
+
+.jskc{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.jsxm{
+    text-align: center;
+    margin-top: 15px;
+}
+.jspj{
+    position:relative;
+    height: 338px;
+    background-color: #f5f5f5;
+    margin-top: -29.96%;
+    z-index:10;
+    display: none;
+    
+}
+.boxt1{
+  margin-top: 3%;
+  height: 205px;
+  margin-left:25%;
+  
+}
+.bcpjk{
+    width: 945px;
+    height: 357px;
+    background-color: #f3e9dd;
+    margin-left: 70px;
+    margin-top:40px;
+}
+.bcpjkx{
+   margin-top: 2%;
+   margin-left: 4%;
+}
+.tj{
+    background-color: #ffffff;
+    width: 215px;
+    height: 59px;
+}
+.span2{
+    color: #505050;
+    font-size: 25px;
+}
+.modal-dialog {
+    width: 780px;
+}
